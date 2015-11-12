@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Dec 30 11:23:56 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=NJWUServerForMac.jar
+manifest.mergeall=true
+manifest.mainclass=main.Launcher_UI
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

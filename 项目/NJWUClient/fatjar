@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Dec 30 11:16:52 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=NJWUClient.jar
+manifest.mergeall=true
+manifest.mainclass=presentation.mainui.FrameTest
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

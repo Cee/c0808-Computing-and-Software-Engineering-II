@@ -1,0 +1,109 @@
+package presentation.insteacherui;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.Font;
+
+public class Ins_EditSubPanel extends JPanel {
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+	private JTextField textField_5;
+	private JTextField textField_6;
+	public Ins_EditSubPanel() {
+		setLayout(null);
+		
+		JLabel lblxxx = new JLabel("课程编号：XXX");
+		lblxxx.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		lblxxx.setBounds(183, 35, 150, 37);
+		add(lblxxx);
+		
+		JLabel label = new JLabel("课程名称：");
+		label.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label.setBounds(183, 77, 68, 31);
+		add(label);
+		
+		JLabel label_1 = new JLabel("任课老师：");
+		label_1.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_1.setBounds(183, 120, 68, 31);
+		add(label_1);
+		
+		JLabel label_2 = new JLabel("课程学分：");
+		label_2.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_2.setBounds(183, 163, 68, 31);
+		add(label_2);
+		
+		JLabel label_3 = new JLabel("上课时间：");
+		label_3.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_3.setBounds(183, 206, 68, 31);
+		add(label_3);
+		
+		JLabel label_4 = new JLabel("上课地点：");
+		label_4.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_4.setBounds(183, 249, 68, 31);
+		add(label_4);
+		
+		JLabel label_5 = new JLabel("课程信息：");
+		label_5.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_5.setBounds(183, 292, 68, 31);
+		add(label_5);
+		
+		textField = new JTextField();
+		textField.setBounds(248, 77, 229, 31);
+		add(textField);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(248, 121, 229, 31);
+		add(textField_1);
+		
+		textField_2 = new JTextField();
+		textField_2.setColumns(10);
+		textField_2.setBounds(248, 164, 49, 31);
+		add(textField_2);
+		
+		textField_3 = new JTextField();
+		textField_3.setColumns(10);
+		textField_3.setBounds(248, 207, 229, 31);
+		add(textField_3);
+		
+		textField_4 = new JTextField();
+		textField_4.setColumns(10);
+		textField_4.setBounds(248, 249, 229, 31);
+		add(textField_4);
+		
+		textField_5 = new JTextField();
+		textField_5.setColumns(10);
+		textField_5.setBounds(248, 293, 391, 140);
+		add(textField_5);
+		
+		JButton button = new JButton("发布");
+		button.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		button.setBounds(245, 459, 90, 30);
+		add(button);
+		
+		JButton button_1 = new JButton("保存");
+		button_1.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		button_1.setBounds(376, 459, 90, 30);
+		add(button_1);
+		
+		JButton button_2 = new JButton("取消");
+		button_2.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		button_2.setBounds(506, 459, 90, 30);
+		add(button_2);
+		
+		JLabel label_6 = new JLabel("最大学生人数：");
+		label_6.setFont(new Font("Microsoft YaHei", Font.PLAIN, 13));
+		label_6.setBounds(309, 163, 123, 31);
+		add(label_6);
+		
+		textField_6 = new JTextField();
+		textField_6.setColumns(10);
+		textField_6.setBounds(402, 164, 75, 31);
+		add(textField_6);
+	}
+}
